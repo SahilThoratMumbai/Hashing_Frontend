@@ -5,17 +5,15 @@ function Services () {
     return (
       <section class="section-white">
  
-    <div class="container">
+    <div class="container3">
  
-        <div class="row">
+        <div class="row" className="Teamhead">
        
                     <div class="col-md-12 text-center">
 
-                          <h2 class="section-title">The Team Behind These Website</h2>
+                          <h2 class="section-title">The Team Behind These Website</h2>        
+                    </div>
 
-                         <p class="section-subtitle">{message}</p> 
-                          
-                    </div> 
             <div class="mid">        
             <div class="main1">     
             <div class="Main"> 
@@ -26,7 +24,7 @@ function Services () {
                       <img src="https://i.ibb.co/dkWC67b/Whats-App-Image-2023-08-09-at-11-02-35-PM.jpg" class="team-img" alt="pic" />                   
                       <h3>Vaibhav Wagh</h3>            
                       <div class="team-info"><p>Team Member</p></div>
-                      <p>Vaibhav is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
+                      <p className="waghinfo">Vaibhav is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
                   
                       
                       
@@ -47,7 +45,7 @@ function Services () {
                       
                       <div class="team-info"><p>Team Member</p></div>
 
-                      <p>Sahil is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
+                      <p className="thoratinfo">Sahil is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
                   
                       
                       
@@ -68,7 +66,7 @@ function Services () {
                       
                       <div class="team-info"><p>Team Member</p></div>
 
-                      <p>Vaibhav is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
+                      <p className="gohilinfo">Vaibhav is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
                   
   
                       
@@ -89,7 +87,7 @@ function Services () {
                       
                       <div class="team-info"><p>Team Member</p></div>
 
-                      <p>Shreyas is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
+                      <p className="undeinfo">Shreyas is a third-year student in the Computer Engineering Department at Shah and Anchor Kutchhi Engineering College, affiliated with Mumbai University..</p>
                   
                       
                       
@@ -98,7 +96,7 @@ function Services () {
             </div> 
             </div>
             </div>
-            </div>
+            </div> 
         </div> 
     
     </div> 

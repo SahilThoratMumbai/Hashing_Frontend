@@ -845,7 +845,7 @@ img{
 }
 
 .team-item:hover{
-	background: #3956de;
+	background:yellowgreen;
 	color: white;
 }
 
@@ -878,9 +878,10 @@ img{
 }
 
 .team-info p{
-	color:#acacac;
+	color:cadetblue;
 	font-style:italic;
   font-size: 30px;
+
 }
 
 .team-info::after {
@@ -963,7 +964,8 @@ ul.team-icon li a.dribble{
 }
 .mid{
   display: flex;
-  margin-top:-50px;
+  margin-top:-90px;
+  position: fixed;
   
 }
 .Main{
@@ -971,13 +973,40 @@ ul.team-icon li a.dribble{
   margin-top: 12%;
   margin-left: -200px;
 }
+.main1{
+  margin-left: 255px;
+
+}
 
 .main2{
-  margin-left: -500px;
+  margin-left: -600px;
 }
 .main3{
-  margin-left: -200px;
+  margin-left: -600px;
+}
+.main4{
+  margin-left: -590px;
 }
 
+.Teamhead{
+  color:orange;
+  margin-top: 20px;
+}
 
+.waghinfo{
+  color:darkgreen;
+  font-size: 25px;
+}
+.thoratinfo{
+  color:darkgreen;
+  font-size: 25px;
+}
+.gohilinfo{
+  color:darkgreen;
+  font-size: 25px;
+}
+.undeinfo{
+  color:darkgreen;
+  font-size: 25px;
+}
 
