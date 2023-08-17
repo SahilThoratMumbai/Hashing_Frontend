@@ -26,12 +26,15 @@ const Navbar = () => {
           <a class="nav-link" href="/services">About Us</a>
         </li>
         <li class="nav-item">
+        {/* <li class="nav-item">
+          <a class="nav-link" href="">Simulation</a>
+        </li> */}
           <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc8VP_bKiyvhC8dWq2EWYBi3zW22Yg9p35jTTsDtJ7b9Ji1tw/viewform?usp=sf_link">Contact</a>
         </li>
-        {/* <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
-        </li>
         <li class="nav-item">
+          <a class="nav-link" href="">Simulation</a>
+        </li>
+        {/* <li class="nav-item">
           <a class="nav-link" href="/signup">Sign up</a>
         </li> */}
        

@@ -83,7 +83,7 @@
   color: lightgreen ;
   background-color: black;
   font-family: Lucida Bright;
-  
+  margin-left:15px;
 
 }
 .container1{
@@ -966,6 +966,7 @@ ul.team-icon li a.dribble{
   display: flex;
   margin-top:-90px;
   position: fixed;
+  display: center;
   
 }
 .Main{
