@@ -6,6 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* Small screens */
+@media (max-width: 768px) {
+  /* Adjust styles for screens up to 768px wide */
+}
+
+/* Medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust styles for screens between 769px and 1024px wide */
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  /* Adjust styles for screens wider than 1024px */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -83,7 +97,7 @@
   color: lightgreen ;
   background-color: black;
   font-family: Lucida Bright;
-  margin-left:15px;
+  margin-left:-200px;
 
 }
 .container1{
@@ -395,6 +409,12 @@ img{
     margin-left: 2.8%;
     background-color:darkkhaki;
   }
+
+  button, select {
+    text-transform: none;
+    color: #90EE90;
+    background: black;
+}
   .collision {
     border: 2px solid greenyellow;
     font-size: 30px;
@@ -1011,3 +1031,6 @@ ul.team-icon li a.dribble{
   font-size: 25px;
 }
 
+/* .anothernav{
+  margin-left: right;
+} */
