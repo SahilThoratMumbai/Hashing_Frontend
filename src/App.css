@@ -62,9 +62,10 @@
 .signup-form{
   font-size: 25px;
   background-color:khaki;
-  padding-top: 1%;
-  padding-bottom: 0%;
+  padding-top: -3rem;
+  padding-bottom: 5rem;
   padding-left: 2%;
+  margin-top: 8rem;
   
   
 }
@@ -76,11 +77,13 @@
   
  
 }
-.signup-content{
+ /* .signup-content{
   border: 4px dashed blue;
   border-style:dashed;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
   
-}
+}  */
 .container{
   font-size: 30px;
   font-style: italic;
@@ -1034,3 +1037,10 @@ ul.team-icon li a.dribble{
 /* .anothernav{
   margin-left: right;
 } */
+
+select {
+  height: 3rem;
+  width: 12rem;
+  text-align: center;
+  font-size: 1.2rem;
+}

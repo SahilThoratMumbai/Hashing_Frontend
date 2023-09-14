@@ -44,7 +44,7 @@ const Navbar = () => {
       
      <nav className="scrollbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
      <select value={collisionResolution} onChange={handleSelectChange}>
-      <option value="techniques">Techniques</option>
+      <option value="techniques">Table Of Contents</option>
       <option value="open-addressing">Open Addressing</option>
       <option value="separate-chaining">Separate Chaining</option>
       <option value="bucket-hashing">Bucket Hashing</option>
@@ -80,10 +80,10 @@ const Navbar = () => {
         {/* <li class="nav-item">
           <a class="nav-link" href="">Simulation</a>
         </li> */}
-          <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc8VP_bKiyvhC8dWq2EWYBi3zW22Yg9p35jTTsDtJ7b9Ji1tw/viewform?usp=sf_link">Contact</a>
+          <a class="nav-link" href="/signup">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://simulation-of-hashing-techniques.netlify.app/">Simulation</a>
+          <a class="nav-link" href="https://hashing-in-ds.web.app/">Simulation</a>
         </li>
         {/* <li class="nav-item">
           <a class="nav-link" href="/signup">Sign up</a>

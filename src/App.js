@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {Switch,Route } from 'react-router-dom';
 import Navbar from "./components/Navbar"
@@ -14,8 +15,17 @@ import Doublehashing from './components/Doublehashing';
 import Separatechaining from './components/Separatechaining';
 import Buckethashing from './components/Buckethashing';
 import './App.css';
-
 import Bstabs from './components/Bstabs';
+
+// const mongoose = require('mongoose');
+
+// const DB = 'mongodb+srv://sahil:<password>@hashingcluster.1vo3vj5.mongodb.net/HashingCluster?retryWrites=true&w=majority';
+
+// mongoose.connect(DB).then(() => {
+//   console.log("Connection is Successful");
+// }).catch((error) => console.log("Connection is Unsuccessful"));
+
+
 const App = () => {
   return (
     <>
